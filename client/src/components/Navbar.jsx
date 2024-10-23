@@ -24,8 +24,8 @@ const Navbar = () => {
         </div>
 
         <div className='navbar-end'>
-            <VscAccount />
-            <h1>Account</h1>
+            <div className='navbar-end-icon'><VscAccount /></div>
+            <div><h1>Account</h1></div>
         </div>
     </div>
   )

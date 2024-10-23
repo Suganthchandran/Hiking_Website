@@ -1,3 +1,8 @@
+.banner-navbar {
+    z-index: 2;
+    position: absolute;
+}
+
 .banner-image {
     height: 105vh;
     width: 100%;
@@ -9,7 +14,111 @@
     align-items: center;
     text-align: center;
     color: rgb(0, 0, 0);
-    margin-top: -80px;
+    margin-top: -100px;
     position: relative;
     object-fit: cover;
+    z-index: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 0;
+}
+
+.banner-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 5%;
+    color: white;
+    font-size: 1.3rem;
+    z-index: 2;
+}
+
+.banner-start {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.banner-center {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.banner-center-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.8rem;
+    color: yellow !important;
+}
+
+.banner-line {
+    width: 5rem;
+    height: 1px;
+    color: yellow !important;
+    background-color: yellow !important;
+}
+
+.banner-center-2 {
+    font-size: 2.6rem;
+    text-align: start;
+    font-family: 500;
+}
+
+.banner-center-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:0.3rem;
+    font-size: 0.9rem;
+    font-weight: 300 !important;
+    opacity: 0.7;
+}
+
+.banner-scroll-down-icon {
+    font-size: 1.3rem;
+    margin-top: 6.5px;
+}
+
+.banner-end {
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}
+
+.banner-end-1 {
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+.banner-end-line {
+    width: 2.8px;
+    background-color: white;
+    height: 200px;
+    position: relative;
+    opacity: 0.7;
+}
+
+.banner-end-line-overlay {
+    position: absolute;
+    top:370px;
+    width: 4px;
+    height: 62px;
+    left: 1820.5px;
+    font-weight: 900;
+    border-radius: 20px;
+    color: white;
+    background-color: white;
 }
