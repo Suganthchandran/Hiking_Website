@@ -22,7 +22,7 @@ const Page1 = () => {
         
         <div className="page1-arrow">
            <div> <p>Read more</p> </div>
-            <div> <FaArrowRightLong /> </div>
+            <div className='page1-arrow1'> <FaArrowRightLong /> </div>
       </div>
         </div>
       </div>

@@ -69,6 +69,8 @@
     flex-direction: row;
     align-items: center;
     gap:10px ;
+    color: yellow;
+
 }
 
 .page1-arrow p {
