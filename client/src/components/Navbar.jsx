@@ -4,35 +4,39 @@ import { VscAccount } from "react-icons/vsc";
 
 const Navbar = () => {
 
-    const [isMenuVisible, setMenuVisible] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
-    useEffect(() => {
-        const handleResize = () => {
-          if (window.innerWidth > 800) {
-            setMenuVisible(false);
-          }
-        };
-    
-        window.addEventListener('resize', handleResize);
-        return () => window.removeEventListener('resize', handleResize);
-      }, []);
+  const handleScroll = () => {
+    if (window.scrollY > 50) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
-    <div className='navbar'>
+    <div className={`navbar ${scrolled ? 'scrolled' : ''}`} >
         <div className='navbar-start'>
             <h1>MNTN</h1>
         </div>
 
         <div className='navbar-center'>
-                <div>
+                <div className='navbar-center-element'>
                     <h1>Equipment</h1>
                 </div>
 
-                <div>
+                <div className='navbar-center-element'>
                     <h1>About Us</h1>
                 </div>
 
-                <div>
+                <div className='navbar-center-element'>
                     <h1>Blog</h1>
                 </div>
         </div>

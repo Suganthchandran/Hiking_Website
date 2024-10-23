@@ -56,10 +56,12 @@
     margin-top: -80px;
     width: 500px;
     margin-bottom: 1.5rem;
+    
 }
 .page1-text-container p{
     margin-bottom: 15px;
     font-family: karla !important;
+    font-size: 1.15rem;
 }
 
 .page1-arrow{
@@ -67,6 +69,7 @@
     flex-direction: row;
     align-items: center;
     gap:10px ;
+    cursor: pointer;
 }
 
 .page1-arrow p {

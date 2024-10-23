@@ -19,11 +19,11 @@ const Banner = () => {
                 Follow Us
                      </div>
 
-          <div>
+          <div className='banner-start-link'>
             <SiInstagram />
           </div>
 
-          <div>
+          <div className='banner-start-link'>
             <RiTwitterLine />
           </div>
         </div>
@@ -47,17 +47,17 @@ const Banner = () => {
 
         <div className='banner-end'>
           <div className='banner-end-1'>
-            <div>
+            <div style={{cursor:'pointer'}}>
               Start
             </div>
-            <div>
-              01
+            <div style={{cursor:'pointer'}}>
+            <a href='#page1'>01</a>  
             </div>
-            <div>
-              02
+            <div style={{cursor:'pointer'}}>
+            <a href='#page2'>02</a>  
             </div>
-            <div>
-              03
+            <div style={{cursor:'pointer'}}>
+            <a href='#page3'>03</a>  
             </div>
           </div>
 

@@ -4,7 +4,7 @@ import '../styles/Page2.css';import { FaArrowRightLong } from "react-icons/fa6";
 
 const Page2 = () => {
   return (
-    <div className='page1'>
+    <div id='page2' className='page1'>
 
     <div className="page1-img">
         <img src={img2}/>

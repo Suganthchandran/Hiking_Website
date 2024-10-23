@@ -36,6 +36,7 @@
     justify-content: space-between;
     width: 100%;
     padding: 0 5%;
+    margin-top: 4rem;
     color: white;
     font-size: 1.3rem;
     z-index: 2;
@@ -44,7 +45,7 @@
 .banner-start {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 2rem;
     margin-top: 2rem;
 }
 
@@ -52,6 +53,10 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}
+
+.banner-start-link {
+    cursor: pointer;
 }
 
 .banner-center-1 {
@@ -73,7 +78,8 @@
 .banner-center-2 {
     font-size: 2.6rem;
     text-align: start;
-    font-family: 500;
+    font-weight: 900;
+    /* font-family: karla; */
 }
 
 .banner-center-3 {
@@ -82,6 +88,7 @@
     align-items: center;
     gap:0.3rem;
     font-size: 0.9rem;
+    font-family: karla;
     font-weight: 300 !important;
     opacity: 0.7;
 }
@@ -103,6 +110,11 @@
     gap:2rem;
 }
 
+.banner-end-1 a {
+    color: white;
+    text-decoration: none;
+}
+
 .banner-end-line {
     width: 2.8px;
     background-color: white;
@@ -116,7 +128,7 @@
     top:370px;
     width: 4px;
     height: 62px;
-    left: 1806.3px;
+    left: 1806.499929px;
     font-weight: 900;
     border-radius: 20px;
     color: white;
