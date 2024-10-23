@@ -1,8 +1,22 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import '../styles/Navbar.css'
 import { VscAccount } from "react-icons/vsc";
 
 const Navbar = () => {
+
+    const [isMenuVisible, setMenuVisible] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+          if (window.innerWidth > 800) {
+            setMenuVisible(false);
+          }
+        };
+    
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+      }, []);
+
   return (
     <div className='navbar'>
         <div className='navbar-start'>

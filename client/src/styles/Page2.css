@@ -1,14 +1,23 @@
-.page2{
+.page1{
     display: flex;
     flex-direction: row;
-    padding: 0px 150px;
-    width: 1500px;
+    padding: 5rem 20%;
+    gap: 4rem;
 }
+
+.page2-big-head {
+    position: relative;
+    font-size: 7rem;
+    margin-left: -100px;
+    margin-top: -20px;
+    opacity: 0.1;
+}
+
 .page2-text{
     justify-content: center;
     margin-left: 90px;
 }
-.page2-container{
+.page1-container{
     display: flex;
     flex-direction: column;
 }
@@ -16,22 +25,50 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    position: absolute;
+    top:1765px;
+    z-index: 2;
+    color: yellow;
+    gap:1rem;
+    font-size: 1.3rem;
 }
 .page2-getstarted hr{
     height: 1px;
     width: 50px;
+    border:1px solid yellow;
 }
 
+.page2-getstarted h5 {
+    letter-spacing: 0.2rem;
+}
 
-.page2-img img{
-    width: 300px;
-    height: 400px;
+.page1-img img{
+    width: 400px;
+    height: 500px;
+}
+
+.page2-text-container {
+    width: 670px;
 }
 
 .page2-text-container h2{
-    margin-bottom: 20px;
+    font-size: 3.5rem;
+    margin-top: -80px;
+    width: 500px;
+    margin-bottom: 1.5rem;
 }
 .page2-text-container p{
     margin-bottom: 15px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.page1-arrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px ;
+}
+
+.page1-arrow p {
+    margin-top: 7px;
 }

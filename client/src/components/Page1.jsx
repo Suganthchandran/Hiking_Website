@@ -8,15 +8,17 @@ const Page1 = () => {
     <div className='page1'>
       <div className="page1-text">
         <div className="page1-container">
+          <div className='page1-big-head'>
              <h1>01</h1>
+             </div>
         <div className='page1-getstarted'>
             <hr />
-            <h5>Get Started</h5>
+            <h5>GET STARTED</h5>
         </div>
         </div>
         <div className="page1-text-container">
         <h2>What level of Hike are you?</h2>
-        <p>Determining what level of hiker you are can be an tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various webistes like.</p>
+        <p>Determining what level of hiker you are can be an tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various webistes like.Determining what level of hiker you are can be an tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various webistes like.Determining what level of hiker you are can be an tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various webistes like.</p>
         
         <div className="page1-arrow">
            <div> <p>Read more</p> </div>
@@ -24,9 +26,10 @@ const Page1 = () => {
       </div>
         </div>
       </div>
-    <div className="page1-img">
+
+      <div className="page1-img">
         <img src={img1}/>
-    </div>
+      </div>
     </div>
 
   )
