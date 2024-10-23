@@ -13,12 +13,12 @@ const Page3 = () => {
              </div>
         <div className='page3-getstarted'>
             <hr />
-            <h5>GET STARTED</h5>
+            <h5>WHERE YOU GO IS THE KEY</h5>
         </div>
         </div>
         <div className="page1-text-container">
-        <h2>What level of Hike are you?</h2>
-        <p>Determining what level of hiker you are can be an tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various webistes like.Determining what level of hiker you are can be an tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various webistes like.Determining what level of hiker you are can be an tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various webistes like.</p>
+        <h2>Understand Your Map & Timing</h2>
+        <p>To start, print out hiking guide and map. If it's raining, throw them in a Zip-Lock bag.Read over the guide, study the map, and have a good idea of what to expect. I like to know what my next landmark is as I hike. For example, I'll read the guide and know that say, in a mile, I make a right turn at the junction..</p>
         <div className="page1-arrow">
            <div> <p>Read more</p> </div>
             <div> <FaArrowRightLong /> </div>

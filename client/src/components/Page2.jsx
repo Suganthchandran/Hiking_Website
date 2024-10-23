@@ -17,12 +17,12 @@ const Page2 = () => {
             </div>
         <div className='page2-getstarted'>
             <hr />
-            <h5>GET STARTED</h5>
+            <h5>HIKING ESSENTIALS</h5>
         </div>
         </div>
         <div className="page2-text-container">
-        <h2>What level of Hike are you?</h2>
-        <p>Determining what level of hiker you are can be an tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various webistes like.Determining what level of hiker you are can be an tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various webistes like.Determining what level of hiker you are can be an tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various webistes like.</p>
+        <h2>Picking the right Hiking Gear!</h2>
+        <p>The nice thing about beginning hiking is that you don't really need any special gear, you can probably get away with things you already have. Let's start with clothing. A typical mistake hiking beginners make is wearing jeans and regular clothes, which will get heavy and chafe wif they get sweaty or wet.</p>
         
         <div className="page1-arrow">
            <div> <p>Read more</p> </div>

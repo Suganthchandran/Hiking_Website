@@ -18,7 +18,7 @@ const Page1 = () => {
         </div>
         <div className="page1-text-container">
         <h2>What level of Hike are you?</h2>
-        <p>Determining what level of hiker you are can be an tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various webistes like.Determining what level of hiker you are can be an tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various webistes like.Determining what level of hiker you are can be an tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various webistes like.</p>
+        <p>Determining what level of hiker you are can be an tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various webistes like All Trails and Modern Hiker.What type of hiker are you -novice, moderate, advanced moderate, expert or expert backpacker?.</p>
         
         <div className="page1-arrow">
            <div> <p>Read more</p> </div>
