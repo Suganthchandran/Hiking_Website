@@ -47,6 +47,10 @@
     height: 500px;
 }
 
+.page2-text-container {
+    margin-top: -100px;
+}
+
 .page1-text-container h2{
     font-size: 3.5rem;
     margin-top: -80px;
@@ -55,7 +59,7 @@
 }
 .page1-text-container p{
     margin-bottom: 15px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: karla !important;
 }
 
 .page1-arrow{

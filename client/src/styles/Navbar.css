@@ -10,7 +10,7 @@
     top: 0;
     z-index: 10;
     transition: background-color 0.3s ease;
-    color: white
+    color: white;
 }
 
 .navbar-end-icon {
