@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4rem 5%;
+    background-color: rgb(148, 197, 240);
+    font-size: 0.8rem;
+}
+
+.navbar-start {
+    font-size: 1rem !important;
+}
+
+.navbar-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
