@@ -35,3 +35,14 @@
     margin-bottom: 15px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+.page1-arrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px ;
+}
+
+.page1-arrow p {
+    margin-top: 7px;
+}
