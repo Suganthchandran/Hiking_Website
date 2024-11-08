@@ -8,7 +8,7 @@ import { FaLongArrowAltDown } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <div>
+    <div className='banner'>
       <div className='banner-navbar'>
         <Navbar />
       </div>
@@ -63,11 +63,11 @@ const Banner = () => {
 
           <div className='banner-end-2'>
               <hr className='banner-end-line' />
-              <hr className='banner-end-line-overlay' />
+              {/* <hr className='banner-end-line-overlay' /> */}
           </div>
         </div>
         </div>
-        <div className="overlay"></div>
+        <div className="overlay"></div> 
       </section>
     </div>
   )
